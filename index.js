@@ -19,5 +19,13 @@ function addTodo(todo) {
         if(todo && todo.completed) {
             todoElement.classList.add('completed')
         }
+        todoElement.innerText = todoText
+
+        todoElement.addEventListener('click', () => todoElement.classList.toggle('completed'))
+
+
+        todoUL.appendChild(todoElement)
+
+        input.value = ''
     }
 }
