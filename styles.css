@@ -33,3 +33,17 @@ form {
     border: none;
     color: #444;
 }
+.input::placeholder{
+    color: #d5d5d5;
+}
+.todo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+.todo li {
+    border-top: solid 1px #e5e5e5;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
